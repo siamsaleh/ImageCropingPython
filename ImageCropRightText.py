@@ -32,8 +32,10 @@ for image in images:
     # cv2.imshow(string, forCut)
     # save image
     # imageName = string + '.jpg'
-    imageName = file_names[x]
-    cv2.imwrite(imageName, forCut)
+    imageName = 'image/'
+    # imageName = file_names[x]
+    # imageName = os.imageName.join(imageName , file_names[x])
+    cv2.imwrite(os.path.join(imageName, file_names[x]), forCut)
     x = x+1
 
 cv2.waitKey(0)
