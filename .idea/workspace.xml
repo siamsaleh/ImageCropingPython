@@ -4,51 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3250496e-2852-4eb7-ac21-33f06ac55b2c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/ImageCropping.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ImageCropping.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resource/LeftNone/page-032.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resource/LeftNone/page-054.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resource/LeftNone/page-068.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resource/LeftNone/page-078.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resource/LeftNone/page-080.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resource/LeftNone/page-094.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resource/LeftNone/page-146.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resource/LeftNone/page-178.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resource/LeftNone/page-196.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resource/LeftNone/page-200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resource/LeftNone/page-204.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resource/LeftNone/page-206.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resource/LeftNone/page-212.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resource/LeftNone/page-218.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resource/LeftNone/page-224.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resource/LeftNone/page-234.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resource/LeftNone/page-248.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resource/LeftNone/page-250.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resource/LeftNone/page-252.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resource/LeftNone/page-294.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resource/LeftNone/page-304.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resource/LeftNone/page-308.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resource/LeftNone/page-318.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resource/LeftNone/page-324.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resource/LeftNone/page-328.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resource/LeftNone/page-330.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resource/LeftNone/page-354.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resource/LeftNone/page-384.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resource/LeftNone/page-388.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resource/LeftNone/page-390.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resource/LeftNone/page-410.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resource/LeftNone/page-416.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resource/LeftNone/page-440.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resource/LeftNone/page-448.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resource/LeftNone/page-512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resource/LeftNone/page-540.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resource/LeftNone/page-544.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resource/LeftNone/page-566.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resource/LeftNone/page-594.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resource/Right/page-431.png" beforeDir="false" />
-    </list>
+    <list default="true" id="3250496e-2852-4eb7-ac21-33f06ac55b2c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
