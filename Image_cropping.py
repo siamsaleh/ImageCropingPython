@@ -74,20 +74,17 @@ right_file_names = get_file_names("Resource/Right", "")
 
 top_right_file_names = get_file_names("Resource/Right", "top-")
 bottom_right_file_names = get_file_names("Resource/Right", "bottom-")
+
+lr_right_file_names = get_file_names("Resource/Right", "lr-")
+lr_left_none_file_names = get_file_names("Resource/LeftNone", "lr-")
 ########################################################################################################################
-
-
-def crop_left_none_img():
-    # TODO LEFT NONE [117: 1145, 106: 748]
-    show_image_cropping(left_none_images, 117, 1145, 106, 748)
-    write_cropped_image_in_folder(left_none_images, left_none_file_names, "image/", 117, 1145, 106, 748)
+# TODO LEFT NONE [117: 1145, 106: 748]
+# show_image_cropping(left_none_images, 117, 1145, 106, 748)
+# write_cropped_image_in_folder(left_none_images, left_none_file_names, "image/", 117, 1145, 106, 748)
 ########################################################################################################################
-
-
-def crop_right_img():
-    # TODO RIGHT [116: 1144, 88: 730]
-    show_image_cropping(right_images, 116, 1144, 88, 730)
-    write_cropped_image_in_folder(right_images, right_file_names, "image/", 116, 1144, 88, 730)
+# TODO RIGHT [116: 1144, 88: 730]
+# show_image_cropping(right_images, 116, 1144, 88, 730)
+# write_cropped_image_in_folder(right_images, right_file_names, "image/", 116, 1144, 88, 730)
 ########################################################################################################################
 # TODO TOP --- LEFT NONE [2: 117, 102: 750]
 # show_image_cropping(left_none_images, 2, 117, 102, 750)
@@ -104,20 +101,15 @@ def crop_right_img():
 # TODO BOTTOM --- RIGHT [1182: 1259, 85: 729]
 # show_image_cropping(right_images, 1182, 1259, 85, 729)
 # write_cropped_image_in_folder(right_images, bottom_right_file_names, "imagesBottom", 1182, 1259, 85, 729)
+########################################################################################################################
+
+# LEFT RIGHT
 
 #######################################################################################################################
-# TODO RIGHT -- RIGHT_IMG [1182: 1259, 85: 729] not done
-# show_image_cropping(right_images, 3, 116, 85, 729)
-# write_cropped_image_in_folder(right_images, bottom_right_file_names, "imagesBottom", 3, 116, 85, 729)
+# TODO RIGHT -- RIGHT_IMG [116, 1145 : 735, 766]
+# show_image_cropping(right_images, 116, 1145, 735, 766)
+# write_cropped_image_in_folder(right_images, lr_right_file_names, "imagesLeftRight", 116, 1145, 735, 766)
 #######################################################################################################################
-# TODO LEFT -- RIGHT_IMG [1182: 1259, 85: 729] not done
-# show_image_cropping(right_images, 3, 116, 85, 729)
-# write_cropped_image_in_folder(right_images, bottom_right_file_names, "imagesBottom", 3, 116, 85, 729)
-#######################################################################################################################
-# TODO RIGHT -- LEFT_IMG [1182: 1259, 85: 729] not done
-# show_image_cropping(right_images, 3, 116, 85, 729)
-# write_cropped_image_in_folder(right_images, bottom_right_file_names, "imagesBottom", 3, 116, 85, 729)
-#######################################################################################################################
-# TODO LEFT -- LEFT_IMG [1182: 1259, 85: 729] not done
-# show_image_cropping(right_images, 3, 116, 85, 729)
-# write_cropped_image_in_folder(right_images, bottom_right_file_names, "imagesBottom", 3, 116, 85, 729)
+# TODO LEFT -- LEFT_IMG [117: 1145, 69: 99] not done
+# show_image_cropping(left_none_images, 117, 1145, 69, 99)
+# write_cropped_image_in_folder(left_none_images, lr_left_none_file_names, "imagesLeftRight", 117, 1145, 69, 99)
