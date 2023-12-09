@@ -1,5 +1,7 @@
+import glob
+import os
+
 import cv2
-import glob, os
 
 
 def read_all_images():
@@ -92,6 +94,11 @@ bottom_right_file_names = get_file_names("Resource/Right", "bottom-")
 # TODO TOP --- RIGHT [3: 116, 85: 729]
 # show_image_cropping(right_images, 3, 116, 85, 729)
 # write_cropped_image_in_folder(right_images, top_right_file_names, "imagesTop", 3, 116, 85, 729)
+#######################################################################################################################
+# TODO BOTTOM --- RIGHT [1182: 1259, 85: 729] not done
+# show_image_cropping(right_images, 3, 116, 85, 729)
+# write_cropped_image_in_folder(right_images, bottom_right_file_names, "imagesBottom", 3, 116, 85, 729)
+
 #######################################################################################################################
 # TODO BOTTOM --- RIGHT [1182: 1259, 85: 729] not done
 # show_image_cropping(right_images, 3, 116, 85, 729)
