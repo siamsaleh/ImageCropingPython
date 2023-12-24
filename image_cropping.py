@@ -5,17 +5,10 @@ import cv2
 
 
 def read_all_images():
-    left_text_none_all_image_path = 'Resource/LeftNone/*.png'  # read all image in array
-    right_text_all_image_path = 'Resource/Right/*.png'
+    all_image_path = 'Resource/pages/*.png'  # read all image in array
 
-    # Return Right Left None all images here
-    return ([cv2.imread(file) for file in glob.glob(left_text_none_all_image_path)]
-            + [cv2.imread(file) for file in glob.glob(right_text_all_image_path)])
-
-
-def read_right_images():
-    right_text_all_image_path = 'Resource/Right/*.png'
-    return [cv2.imread(file) for file in glob.glob(right_text_all_image_path)]
+    # Return all images here
+    return [cv2.imread(file) for file in glob.glob(all_image_path)]
 
 
 # add_pre_text = "top-"
@@ -29,11 +22,6 @@ def get_file_names(folder_path, add_pre_text):
     return file_names
 
 
-def read_left_none_images():
-    left_text_none_all_image_path = 'Resource/LeftNone/*.png'
-    return [cv2.imread(file) for file in glob.glob(left_text_none_all_image_path)]
-
-
 def image_cropping(images, file_names, saved_image_folder_path):
     # Save Images In Folder
     x = 0
@@ -44,9 +32,14 @@ def image_cropping(images, file_names, saved_image_folder_path):
 
 
 def show_image_cropping(images, top_right_y, bottom_left_y, bottom_left_x, top_right_x):
+    # remove existing design left right
+    images[1] = cv2.line(images[1], (110, 147), (110, 1653), (255, 255, 255), 50)
+    images[1] = cv2.line(images[1], (1127, 147), (1127, 1653), (255, 255, 255), 50)
+
     for_cut = images[1][top_right_y: bottom_left_y, bottom_left_x: top_right_x]
-    string = "top-page-{:03d}".format(1)
+    string = "top-page-{:03d}".format(4)
     cv2.imshow(string, for_cut)
+    cv2.imwrite("test.png", for_cut)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 
@@ -55,61 +48,50 @@ def write_cropped_image_in_folder(images, file_names, folder_name,
                                   top_right_y, bottom_left_y, bottom_left_x, top_right_x):
     x = 0
     for image in images:
+        # TODO Center only uncomment
+        # # remove existing design left right (center)
+        # image = cv2.line(image, (110, 147), (110, 1653), (255, 255, 255), 50)
+        # image = cv2.line(image, (1127, 147), (1127, 1653), (255, 255, 255), 50)
+
         for_cut = image[top_right_y: bottom_left_y, bottom_left_x: top_right_x]
         cv2.imwrite(os.path.join(folder_name, file_names[x]), for_cut)
         x = x + 1
 
 
 ########################################################################################################################
-# LEFT NONE Images
-left_none_images = read_left_none_images()
-left_none_file_names = get_file_names("Resource/LeftNone", "")
+# ALL Images
+all_images = read_all_images()
+image_file_names = get_file_names("Resource/pages", "")
+########################################################################################################################
 
-top_left_none_file_names = get_file_names("Resource/LeftNone", "top-")
-bottom_left_none_file_names = get_file_names("Resource/LeftNone", "bottom-")
+# CENTER
 
-# RIGHT Images
-right_images = read_right_images()
-right_file_names = get_file_names("Resource/Right", "")
-
-top_right_file_names = get_file_names("Resource/Right", "top-")
-bottom_right_file_names = get_file_names("Resource/Right", "bottom-")
-
-lr_right_file_names = get_file_names("Resource/Right", "right-")
-lr_left_none_file_names = get_file_names("Resource/LeftNone", "left-")
 ########################################################################################################################
-# TODO LEFT NONE [117: 1145, 106: 748]
-# show_image_cropping(left_none_images, 117, 1145, 106, 748)
-# write_cropped_image_in_folder(left_none_images, left_none_file_names, "imageCroppedLeft/", 117, 1145, 106, 748)
-########################################################################################################################
-# TODO RIGHT [116: 1144, 88: 730]
-# show_image_cropping(right_images, 116, 1144, 88, 730)
-# write_cropped_image_in_folder(right_images, right_file_names, "imageCroppedRight/", 116, 1144, 88, 730)
-########################################################################################################################
-# TODO TOP --- LEFT NONE [2: 117, 102: 750]
-# show_image_cropping(left_none_images, 2, 117, 102, 750)
-# write_cropped_image_in_folder(left_none_images, top_left_none_file_names, "imagesTop", 2, 117, 102, 750)
-########################################################################################################################
-# TODO BOTTOM --- LEFT NONE [1182: 1259, 98: 755]
-# show_image_cropping(left_none_images, 1182, 1259, 98, 755)
-# write_cropped_image_in_folder(left_none_images, bottom_left_none_file_names, "imagesBottom", 1182, 1259, 98, 755)
-########################################################################################################################
-# TODO TOP --- RIGHT [3: 116, 85: 729]
-# show_image_cropping(right_images, 3, 116, 85, 729)
-# write_cropped_image_in_folder(right_images, top_right_file_names, "imagesTop", 3, 116, 85, 729)
-#######################################################################################################################
-# TODO BOTTOM --- RIGHT [1182: 1259, 85: 729]
-# show_image_cropping(right_images, 1182, 1259, 85, 729)
-# write_cropped_image_in_folder(right_images, bottom_right_file_names, "imagesBottom", 1182, 1259, 85, 729)
+# TODO Cropping --- ALL [147 : 1653, 110 : 1127]
+# show_image_cropping(all_images, 147, 1653, 110, 1127)
+# write_cropped_image_in_folder(all_images, image_file_names, "imagesCenter", 147, 1653, 110, 1127)
 ########################################################################################################################
 
 # LEFT RIGHT
 
 #######################################################################################################################
-# TODO RIGHT -- RIGHT_IMG [116, 1145 : 735, 766]
-# show_image_cropping(right_images, 116, 1145, 735, 766)
-# write_cropped_image_in_folder(right_images, lr_right_file_names, "imagesRight", 116, 1145, 735, 766)
+# TODO RIGHT -- ALL [147 : 1653, 1106 : 1191]
+# show_image_cropping(all_images, 147, 1653, 1106, 1191)
+# write_cropped_image_in_folder(all_images, image_file_names, "imagesRight", 147, 1653, 1106, 1191)
 #######################################################################################################################
-# TODO LEFT -- LEFT_IMG [117: 1145, 69: 99] not done
-# show_image_cropping(left_none_images, 117, 1145, 69, 99)
-# write_cropped_image_in_folder(left_none_images, lr_left_none_file_names, "imagesLeft", 117, 1145, 69, 99)
+# TODO LEFT -- ALL [147 : 1653, 47 : 132]
+# show_image_cropping(all_images, 147, 1653, 47,  132)
+# write_cropped_image_in_folder(all_images, image_file_names, "imagesLeft", 147, 1653, 47,  132)
+#######################################################################################################################
+
+# TOP BOTTOM
+
+#######################################################################################################################
+# TODO TOP -- ALL [0 : 147, 110 : 1127]
+# show_image_cropping(all_images, 0, 147, 110, 1127)
+# write_cropped_image_in_folder(all_images, image_file_names, "imagesTop", 0, 147, 110, 1127)
+#######################################################################################################################
+# TODO BOTTOM -- ALL [1653 : 1754, 110 : 1191] not done
+# show_image_cropping(all_images, 1653, 1754, 110,  1191)
+# write_cropped_image_in_folder(all_images, image_file_names, "imagesBottom", 1653, 1754, 110,  1191)
+#######################################################################################################################

@@ -34,12 +34,12 @@ right_file_names = support_class.get_file_names("imagesRight/", "")
 #     print(string + ' index - {:03d}\n'.format(index))
 
 # TODO RIGHT TRANSPARENT
-# count = 1
-# index = 0
-# for image in all_lr_right_images:
-#     string = 'python3 utils/make_transparent.py "imagesRight/' + right_file_names[index] + '" '
-#     string = string + '"imagesTransparentRight/trans-' + right_file_names[index] + '"'
-#     os.system(string)
-#     count = count + 1
-#     index = index + 1
-#     print(string + ' index - {:03d}\n'.format(index))
+count = 1
+index = 0
+for image in all_lr_right_images:
+    string = 'python3 utils/make_transparent.py "imagesRight/' + right_file_names[index] + '" '
+    string = string + '"imagesTransparentRight/trans-' + right_file_names[index] + '"'
+    os.system(string)
+    count = count + 1
+    index = index + 1
+    print(string + ' index - {:03d}\n'.format(index))

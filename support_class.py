@@ -34,3 +34,10 @@ def read_left_images():
 def read_left_trans_images():
     left_text_all_image_path = 'imagesTransparentLeft/*.png'
     return [cv2.imread(file) for file in glob.glob(left_text_all_image_path)]
+
+
+def read_all_images():
+    all_image_path = 'Resource/pages/*.png'  # read all image in array
+
+    # Return all images here
+    return [cv2.imread(file) for file in glob.glob(all_image_path)]
