@@ -6,7 +6,117 @@
   <component name="ChangeListManager">
     <list default="true" id="3250496e-2852-4eb7-ac21-33f06ac55b2c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image_adding.py" beforeDir="false" afterPath="$PROJECT_DIR$/image_adding.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image_cropping.py" beforeDir="false" afterPath="$PROJECT_DIR$/image_cropping.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-009.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-009.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-011.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-011.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-013.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-013.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-015.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-015.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-021.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-021.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-023.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-023.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-031.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-031.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-033.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-033.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-041.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-041.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-043.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-043.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-053.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-053.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-055.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-055.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-063.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-063.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-071.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-071.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-073.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-073.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-081.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-081.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-083.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-083.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-091.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-091.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-093.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-093.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-101.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-101.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-113.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-113.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-121.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-121.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-123.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-123.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-125.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-125.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-133.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-133.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-141.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-141.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-155.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-155.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-171.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-171.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-177.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-177.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-179.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-179.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-181.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-181.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-183.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-183.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-191.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-191.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-193.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-193.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-203.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-203.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-205.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-205.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-213.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-213.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-221.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-221.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-223.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-223.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-235.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-235.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-237.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-237.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-251.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-251.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-253.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-253.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-255.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-255.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-263.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-263.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-271.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-271.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-279.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-279.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-281.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-281.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-291.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-291.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-293.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-293.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-297.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-297.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-299.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-299.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-301.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-301.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-303.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-303.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-313.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-313.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-319.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-319.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-321.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-321.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-323.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-323.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-333.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-333.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-343.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-343.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-345.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-345.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-351.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-351.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-363.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-363.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-369.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-369.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-371.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-371.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-373.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-373.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-375.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-375.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-381.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-381.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-383.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-383.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-393.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-393.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-403.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-403.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-411.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-411.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-417.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-417.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-419.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-419.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-429.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-429.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-433.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-433.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-435.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-435.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-437.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-437.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-443.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-443.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-447.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-447.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-453.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-453.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-455.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-455.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-463.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-463.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-471.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-471.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-473.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-473.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-481.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-481.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-483.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-483.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-495.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-495.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-497.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-497.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-503.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-503.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-509.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-509.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-511.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-511.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-517.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-517.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-519.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-519.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-521.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-521.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-523.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-523.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-533.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-533.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-535.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-535.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-543.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-543.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-551.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-551.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-557.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-557.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-571.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-571.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-573.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-573.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-579.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-579.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-581.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-581.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-583.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-583.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-589.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-589.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-591.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-591.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-593.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-593.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagesBottom/bottom-page-595.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagesBottom/bottom-page-595.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +183,7 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ImageCropingPython$image_cropping.coverage" NAME="image_cropping Coverage Results" MODIFIED="1704014705450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ImageCropingPython$image_cropping.coverage" NAME="image_cropping Coverage Results" MODIFIED="1704022601883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ImageCropingPython$support_class.coverage" NAME="support_class Coverage Results" MODIFIED="1703331011338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ImageCropingPython$image_adding.coverage" NAME="image_adding Coverage Results" MODIFIED="1704017090721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ImageCropingPython$Image_adding.coverage" NAME="Image_adding Coverage Results" MODIFIED="1702105566420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

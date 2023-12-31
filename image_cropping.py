@@ -121,9 +121,9 @@ lr_center_file_names = get_file_names("Resource/Center", "center-")
 # show_image_cropping(right_images, 3, 142, 82, 996)
 # write_cropped_image_in_folder(right_images, top_right_file_names, "imagesTop", 3, 142, 82, 996)
 #######################################################################################################################
-# TODO BOTTOM --- RIGHT [1182: 1259, 85: 729]
+# TODO BOTTOM --- RIGHT [1547, 1675, 82, 996]
 # show_image_cropping(right_images, 1547, 1675, 82, 996)
-# write_cropped_image_in_folder(right_images, bottom_right_file_names, "imagesBottom", 1182, 1259, 85, 729)
+# write_cropped_image_in_folder(right_images, bottom_right_file_names, "imagesBottom", 1547, 1675, 82, 996)
 ########################################################################################################################
 # TODO TOP --- CENTER [3, 142 : 130, 1042]
 # show_image_cropping(center_images, 3, 142, 130, 1042)
