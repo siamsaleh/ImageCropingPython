@@ -3,3 +3,9 @@
 # # show_image_cropping(left_none_images, 1145, 1259, 104, 750)
 # write_cropped_image_in_folder(left_none_images, bottom_left_none_file_names, "imagesTopBottom", 1145, 1259, 104, 751)
 # ########################################################################################################################
+1 resource
+2 left right image center crop
+3 left right top bottom crop
+4 left right transparent
+5 image_adding_lr for make background of left right transparent images (Save in imagesAddBgRight/left)
+6 image_adding in finalImages folder

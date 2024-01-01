@@ -138,22 +138,10 @@ lr_center_file_names = get_file_names("Resource/Center", "center-")
 
 #######################################################################################################################
 # TODO RIGHT -- RIGHT_IMG [142, 1547, 1003, 1092]
-# show_image_cropping(right_images, 142, 1547, 1003, 1092)
+show_image_cropping(right_images, 142, 1547, 1003, 1092)
 # write_cropped_image_in_folder(right_images, lr_right_file_names, "imagesRight", 142, 1547, 1003, 1092)
 #######################################################################################################################
 # TODO LEFT -- LEFT_IMG [142, 1547, 80, 171]
 # show_image_cropping(left_none_images, 142, 1547, 80, 171)
 # write_cropped_image_in_folder(left_none_images, lr_left_none_file_names, "imagesLeft", 142, 1547, 80, 171)
-#######################################################################################################################
-
-##########################################################
-# No
-# need
-# TODO RIGHT -- CENTER_IMG [142, 1548 : 1053, 1083]
-# show_image_cropping(center_images, 142, 1548, 1053, 1083)
-# write_cropped_image_in_folder(center_images, lr_center_file_names, "imagesRight", 142, 1548, 1053, 1083)
-#######################################################################################################################
-# TODO LEFT -- CENTER_IMG [143, 1547 : 80, 124]
-# show_image_cropping(center_images, 143, 1547, 80, 124)
-# write_cropped_image_in_folder(center_images, lr_center_file_names, "imagesLeft", 143, 1547, 80, 124)
 #######################################################################################################################
