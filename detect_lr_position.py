@@ -32,10 +32,10 @@ def get_all_detected_point(loc):
     return uniq_detected_points
 
 
-def template_matching(image_path, save_file_name):
+def template_matching(image_path, save_file_name, sample_path):
     img_rgb = cv2.imread(image_path)
     img_gray = cv2.cvtColor(img_rgb, cv2.COLOR_BGR2GRAY)
-    template = cv2.imread('template/sample3.png', 0)
+    template = cv2.imread(sample_path, 0)
     h, w = template.shape[::]
 
     res = cv2.matchTemplate(img_gray, template, cv2.TM_CCOEFF_NORMED)
@@ -56,7 +56,7 @@ def template_matching(image_path, save_file_name):
         cv2.rectangle(img_rgb, pt, (pt[0] + w, pt[1] + h), (0, 0, 255), 5)  # Red rectangles with thickness 2.
 
     # TODO
-    cv2.imwrite('' + save_file_name, img_rgb)
+    # cv2.imwrite('' + save_file_name, img_rgb)
 
     # cv2.imshow("Matched image", img_rgb)
     # cv2.waitKey()
@@ -68,8 +68,10 @@ def template_matching(image_path, save_file_name):
 
 
 def lr_position_detect(image_path, save_file_name):
-    uniq_detected_points = template_matching(image_path, save_file_name)
+    uniq_detected_points = template_matching(image_path, save_file_name, 'template/sample3.png')
+    uniq_detected_points = uniq_detected_points + template_matching(image_path, save_file_name,
+                                                                    'template/box_sample.png')
     return uniq_detected_points
 
 
-# lr_position_detect("imagesLeft/left-page-028.png", "test.png")
+# lr_position_detect("imagesLeft/left-page-592.png", "test.png")

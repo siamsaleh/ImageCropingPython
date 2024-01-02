@@ -2,7 +2,8 @@ from PIL import Image
 import detect_lr_position
 
 
-def overlay_images(overlay_top_path, output_path, position1=(0, 0), position2=(0, 0)):
+def overlay_images(overlay_top_path, output_path, uniq_detected_points,
+                   position_bg=(0, 0), position2=(0, 0)):
     # Open the background and overlay images
     trans_top_lr = Image.open(overlay_top_path)
 
@@ -16,8 +17,11 @@ def overlay_images(overlay_top_path, output_path, position1=(0, 0), position2=(0
     # Create a copy of the background image
     result = trans_background.copy()
 
-    # Overlay the first image
-    result.paste(white_bg, position1, white_bg)
+    point_count = len(uniq_detected_points)
+    for x in range(0, point_count):
+        # Overlay the white_bg image
+        # result.paste(white_bg, position_bg, white_bg)
+        result.paste(white_bg, (position_bg[0], uniq_detected_points[x][1] - 95), white_bg)
 
     # Overlay the second image
     result.paste(overlay2, position2, overlay2)
@@ -33,10 +37,9 @@ def overlay_image_bg(lr_img_path, trans_img_path, output_img_path):
 
     if len(uniq_detected_points) > 0:
         # if icon available
-        detected_point = uniq_detected_points[0][1]
-
-        overlay_images(trans_img_path, output_img_path,
-                       position1=(0, detected_point - 95), position2=(0, 0))
+        # detected_point = uniq_detected_points[0][1]
+        # - 95
+        overlay_images(trans_img_path, output_img_path, uniq_detected_points)
     else:
         # save same image
         img = Image.open(trans_img_path)
